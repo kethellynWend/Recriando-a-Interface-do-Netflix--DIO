@@ -1,0 +1,23 @@
+@media screen and (max-width: 700px) {
+    main .container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .opcoes {
+      margin-top: 5px;
+      width: 190px;
+    }
+
+    main .logo{
+      background-position:center;
+      margin-top:15px;
+      width: 50%
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    .descricao {
+      width: 50%;
+    }
+  }
+  

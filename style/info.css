@@ -1,0 +1,80 @@
+:root {
+  --vermelho: #e50914;
+  --preta: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--preta);
+  font-family: "Arial", Times, serif;
+  color: white;
+}
+
+/*plano de fundo*/
+.filme-principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1%)),
+    url(img/funo\ info.jpg);
+    background-size: contain;
+  height: 1000px;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/*the wtcher logo*/
+
+.logo {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1%));
+  height: 20%;
+  background-position: left;
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 50%;
+}
+
+.container .descricao {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 15px;
+}
+
+.botao {
+  flex-direction: column;
+  display: -webkit-flex;
+  align-items: left;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+
+  padding: 15px 30px;
+  margin-right: 10px;
+  font-size: 15px;
+  width: 25%;
+  white-space: normal;
+
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.botao:hover {
+  background-color: white;
+  color: black;
+}
+
+.botao i {
+  margin-right: 8px;
+}
+
+a {
+  all: unset;
+}
