@@ -1,5 +1,4 @@
 $(".owl-carousel").owlCarousel({
- lazyLoad:true ,
   loop: true,
   margin: 10,
   nav: false,
